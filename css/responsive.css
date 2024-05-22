@@ -1,0 +1,790 @@
+
+
+/* ----------------------------------------=> medium device <=-------------------------------- */
+@media (max-width:991.98px){
+    #banner h1 {
+        font-size: 50px;
+    }
+    #banner p {
+        font-size: 22px;
+        line-height: 26px;
+        margin: 20px 0;
+    }
+    .navbar {
+        padding: 10px 0;
+        position: static;
+        background-color: aqua;
+    }
+    .navbar-brand img{
+        width: 100px;
+    }
+    #banner .banner_part {
+        padding: 50px 0 0;
+    }
+    .button {
+        padding: 10px 15px;
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+
+    .slider ul li button {
+        height: 15px;
+        width: 15px;
+        border: 3px solid #4756DF;
+    }
+    #banner .slider1 {
+        height: 420px;
+    }
+    .slider ul {
+        bottom: 20px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar-toggler {
+        color: #6A4DF4;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar .nav-link {
+        font-size: 22px;
+        line-height: 15px;
+        color: #070707;
+        margin: 20px 0 0;
+    }
+    .navbar-nav {
+        flex-direction: row;
+        row-gap: 10px;
+        flex-wrap: wrap;
+        column-gap: 35px;
+        justify-content: space-around;
+    }
+
+    /* ====================================-> succes part <-================================= */
+    #succes {
+        padding-top: 70px;
+    }
+    #succes .row .left h2 {
+        font-size: 25px;
+        margin-top: 15px;
+    }
+    #succes .row .left h3 {
+        font-size: 20px;
+    }
+    #succes .row .right {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 30px;
+        margin-top: 15px;
+    }
+    #succes .row .right h3 {
+        font-size: 22px;
+    }
+    #succes .row .right p {
+        font-size: 18px;
+        line-height: 115%;
+        margin-top: 12px;
+    }
+    #succes .main {
+        border-radius: 20px;
+        padding: 30px 25px 30px 30px;
+    }
+
+    /* ====================================-> service part <-================================= */
+    #services {
+        padding-top: 50px;
+    }
+    .title h2 {
+        font-size: 37px;
+    }
+    .title p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    #services .main {
+        text-align: center;
+        border-radius: 10px;
+        padding: 30px 20px 30px;
+        border: 1px dotted orangered;
+    }
+    #services .main img {
+        width: 50px;
+    }
+    #services .main h3 {
+        margin: 20px 0 10px;
+        font-size: 22px;
+    }
+    #services .main p {
+        margin: 20px 0 10px;
+        font-size: 16px;
+    }
+
+    /* ====================================-> work part <-================================= */
+    #work {
+        padding: 50px 0;
+    }
+    #work .row {
+        margin-top: 50px;
+    }
+    #work .row .main {
+        border-radius: 10px;
+        padding-bottom: 10px;
+    }
+    #work .row .main h3 {
+        font-size: 22px;
+        margin: 20px 0 10px;
+    }
+    #work .row .main p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    #work .row .main img{
+        width: 100%;
+    }
+    /* ====================================-> agence part <-================================= */
+    #agence {
+        padding-top: 50px;
+    }
+    #agence .container .row{
+        row-gap: 30px;
+    }
+    #agence .container .main {
+        row-gap: 30px;
+        flex-direction: row;
+        column-gap: 15px;
+    }
+    #agence .container .main .top h3 {
+        font-size: 22px;
+    }
+    #agence .container .main .top p {
+        font-size: 15px;
+    }
+    
+    #agence .container .main .top{
+        padding: 20px 0;
+    }
+    #agence .container .image {
+        height: auto;
+        width: 100%;
+    }
+    /* ====================================-> slider part <-================================= */
+    #slider {
+        padding-top: 50px;
+    }
+    #slider .container .slider101 {
+        margin-top: 40px;
+    }
+    .slick-slide img {
+        width: 40px;
+    }
+    #slider .container .slider101 .main p {
+        font-size: 14px;
+    }
+    #slider .container .slider101 .main .name h3 {
+        font-size: 18px;
+    }
+    #slider .container .slider101 .main .name h4 {
+        font-size: 14px;
+    }
+    #slider .container .slider101 .prev {
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+    }
+    #slider .container .slider101 .next {
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+    }
+
+    #slider .container .slider101 .main .star i {
+        margin-bottom: 20px;
+    }
+    #slider .container .slider101 .main {
+        padding: 25px 30px;
+        margin: 0 12px;
+    }
+
+/* ====================================-> form part <-================================= */
+    #form {
+        padding: 50px 0 0;
+    }
+    #form .container .row .left {
+        margin-top: 20px;
+        display: inline-block;
+        margin-left: 20%;
+    }
+
+    #form .container .row .left h2 {
+        margin-bottom: 20px;
+        font-size: 32px;
+        text-align: center;
+    }
+    #form .container .row .left p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    #form form {
+        padding: 20px 15px;
+        border-radius: 10px;
+        margin: 20px auto;
+    }
+    #form form h3 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    #form form button {
+        padding: 15px 50px;
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    /* ====================================-> bottom part <-================================= */
+    #bottom {
+        padding-top: 50px;
+    }
+    #bottom .container .row .left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #bottom .container .row .left p {
+        font-size: 16px;
+        line-height: 25px;
+        margin-top: 15px;
+    }
+    
+    #bottom .container .row .left img {
+        width: 150px;
+    }
+
+    #bottom .container .row .text {
+        margin-top: 30px;
+    }
+    #bottom .container .row .text .main h4 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    #bottom .container .row .text .main ul li a {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    #bottom .container .footer .line {
+        margin-top: 40px;
+    }
+    #bottom .container .footer p {
+        margin: 15px 0;
+    }
+
+    
+}
+
+/* ----------------------------------------=> small device <=-------------------------------- */
+@media (max-width: 767.98px){
+    #banner h1 {
+        font-size: 40px;
+    }
+    #banner p {
+        font-size: 18px;
+        line-height: 25px;
+        margin: 20px 0;
+    }
+    .navbar {
+        padding: 10px 0;
+        position: static;
+        background-color: aqua;
+    }
+    .navbar-brand img{
+        width: 100px;
+    }
+    #banner .banner_part {
+        padding: 50px 0 0;
+    }
+    .button {
+        padding: 10px 15px;
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+
+    .slider ul li button {
+        height: 15px;
+        width: 15px;
+        border: 3px solid #4756DF;
+    }
+    #banner .slider1 {
+        height: 420px;
+    }
+    .slider ul {
+        bottom: 20px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar-toggler {
+        color: #6A4DF4;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar .nav-link {
+        font-size: 22px;
+        line-height: 15px;
+        color: #070707;
+        margin: 20px 0 0;
+    }
+    .navbar-nav {
+        flex-direction: row;
+        row-gap: 10px;
+        flex-wrap: wrap;
+        column-gap: 35px;
+        justify-content: space-around;
+    }
+
+    /* ====================================-> succes part <-================================= */
+    #succes {
+        padding-top: 70px;
+    }
+    #succes .row .left h2 {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    #succes .row .left h3 {
+        font-size: 17px;
+    }
+    #succes .row .right {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 30px;
+        margin-top: 15px;
+    }
+    #succes .row .right h3 {
+        font-size: 20px;
+    }
+    #succes .row .right p {
+        font-size: 13px;
+        line-height: 115%;
+        margin-top: 12px;
+    }
+    #succes .main {
+        border-radius: 20px;
+        padding: 30px 25px 30px 30px;
+    }
+
+    /* ====================================-> service part <-================================= */
+    #services {
+        padding-top: 50px;
+    }
+    .title h2 {
+        font-size: 32px;
+    }
+    .title p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    #services .main {
+        text-align: center;
+        border-radius: 10px;
+        padding: 30px 20px 30px;
+        border: 1px dotted orangered;
+    }
+    #services .main img {
+        width: 50px;
+    }
+    #services .main h3 {
+        margin: 20px 0 10px;
+        font-size: 18px;
+    }
+    #services .main p {
+        margin: 20px 0 10px;
+        font-size: 13px;
+    }
+
+    /* ====================================-> work part <-================================= */
+    #work {
+        padding: 50px 0;
+    }
+    #work .row {
+        margin-top: 50px;
+    }
+    #work .row .main {
+        border-radius: 10px;
+        border: 1px dotted orangered;
+    }
+    #work .row .main h3 {
+        font-size: 15px;
+        margin: 20px 0 10px;
+    }
+    #work .row .main p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    #work .row .main img{
+        width: 100%;
+    }
+    /* ====================================-> agence part <-================================= */
+    #agence {
+        padding-top: 50px;
+    }
+    #agence .container .row{
+        row-gap: 30px;
+    }
+    #agence .container .main {
+        row-gap: 30px;
+        flex-direction: row;
+        column-gap: 15px;
+    }
+    #agence .container .main .top h3 {
+        font-size: 22px;
+    }
+    #agence .container .main .top p {
+        font-size: 15px;
+    }
+    
+    #agence .container .main .top{
+        padding: 20px 0;
+    }
+    #agence .container .image {
+        height: auto;
+        width: 100%;
+    }
+    /* ====================================-> slider part <-================================= */
+    #slider {
+        padding-top: 50px;
+    }
+    #slider .container .slider101 {
+        margin-top: 40px;
+    }
+    .slick-slide img {
+        width: 40px;
+    }
+    #slider .container .slider101 .main p {
+        font-size: 14px;
+    }
+    #slider .container .slider101 .main .name h3 {
+        font-size: 18px;
+    }
+    #slider .container .slider101 .main .name h4 {
+        font-size: 14px;
+    }
+    #slider .container .slider101 .prev {
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+    }
+    #slider .container .slider101 .next {
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+    }
+
+    #slider .container .slider101 .main .star i {
+        margin-bottom: 20px;
+    }
+    #slider .container .slider101 .main {
+        padding: 25px 30px;
+        margin: 0 12px;
+    }
+
+/* ====================================-> form part <-================================= */
+    #form {
+        padding: 50px 0 0;
+    }
+    #form .container .row .left {
+        margin-top: 50px;
+    }
+
+    #form .container .row .left h2 {
+        margin-bottom: 20px;
+        font-size: 32px;
+        text-align: center;
+    }
+    #form .container .row .left p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    #form form {
+        padding: 20px 15px;
+        border-radius: 10px;
+    }
+    #form form h3 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    #form form button {
+        padding: 15px 50px;
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    /* ====================================-> bottom part <-================================= */
+    #bottom {
+        padding-top: 50px;
+    }
+    #bottom .container .row .left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #bottom .container .row .left p {
+        font-size: 16px;
+        line-height: 25px;
+        margin-top: 15px;
+    }
+    
+    #bottom .container .row .left img {
+        width: 150px;
+    }
+
+    #bottom .container .row .text {
+        margin-top: 30px;
+    }
+    #bottom .container .row .text .main h4 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    #bottom .container .row .text .main ul li a {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    #bottom .container .footer .line {
+        margin-top: 40px;
+    }
+    #bottom .container .footer p {
+        margin: 15px 0;
+    }
+
+    
+}
+
+
+/* ----------------------------------------=> extra small device <=--------------------------- */
+@media (max-width: 575.98px){
+    #banner h1 {
+        font-size: 35px;
+    }
+    #banner p {
+        font-size: 16px;
+        line-height: 20px;
+        margin: 20px 0;
+    }
+    .navbar {
+        padding: 10px 0;
+        position: static;
+        background-color: aqua;
+    }
+    .navbar-brand img{
+        width: 100px;
+    }
+    #banner .banner_part {
+        padding: 50px 0 0;
+    }
+    .button {
+        padding: 10px 15px;
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+
+    .slider ul li button {
+        height: 12px;
+        width: 12px;
+        border: 2px solid #4756DF;
+    }
+    #banner .slider1 {
+        height: 430px;
+    }
+    .slider ul {
+        bottom: 15px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar-toggler {
+        color: #6A4DF4;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar .nav-link {
+        font-size: 22px;
+        line-height: 15px;
+        color: #070707;
+        margin: 20px 0 0;
+    }
+    .navbar-nav {
+        flex-direction: row;
+        row-gap: 10px;
+        flex-wrap: wrap;
+        column-gap: 35px;
+        justify-content: space-around;
+    }
+
+    /* ====================================-> succes part <-================================= */
+    #succes .row .left h2 {
+        font-size: 24px;
+        margin-top: 8px;
+    }
+    #succes .row .left h3 {
+        font-size: 15px;
+    }
+    #succes .row .right {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 30px;
+        margin-top: 15px;
+    }
+    #succes .row .right h3 {
+        font-size: 22px;
+    }
+    #succes .row .right p {
+        font-size: 15px;
+        line-height: 111%;
+        margin-top: 10px;
+    }
+    #succes .main {
+        border-radius: 20px;
+        padding: 30px 25px 30px 30px;
+    }
+
+    /* ====================================-> service part <-================================= */
+    #services {
+        padding-top: 50px;
+    }
+    .title h2 {
+        font-size: 30px;
+    }
+    .title p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #services .main {
+        text-align: center;
+        border-radius: 10px;
+        padding: 30px 20px 30px;
+        border: 1px dotted orangered;
+    }
+    #services .main img {
+        width: 50px;
+    }
+    #services .main h3 {
+        margin: 20px 0 10px;
+    }
+
+    /* ====================================-> work part <-================================= */
+    #work {
+        padding: 50px 0;
+    }
+    #work .row .main {
+        border-radius: 10px;
+        border: 1px dotted orangered;
+    }
+    #work .row .main img{
+        width: 100%;
+    }
+    /* ====================================-> agence part <-================================= */
+    #agence {
+        padding-top: 50px;
+    }
+    #agence .container .row{
+        row-gap: 30px;
+    }
+    #agence .container .main {
+        row-gap: 30px;
+        text-align: center;
+    }
+    
+    #agence .container .main .top{
+        padding: 20px 0;
+        border: 1px dashed orangered;
+    }
+    #agence .container .main .top h3 {
+        font-size: 18px;
+    }
+    #agence .container .main .top p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    #agence .container .image {
+        height: auto;
+        width: 100%;
+    }
+    /* ====================================-> slider part <-================================= */
+    #slider {
+        padding-top: 50px;
+    }
+    #slider .container .slider101 {
+        margin-top: 40px;
+    }
+
+    #slider .container .slider101 .main .star i {
+        margin-bottom: 20px;
+    }
+    #slider .container .slider101 .main {
+        padding: 25px 30px;
+        margin: 0 12px;
+    }
+
+/* ====================================-> form part <-================================= */
+    #form {
+        padding: 50px 0 0;
+    }
+    #form .container .row .left {
+        margin-top: 50px;
+    }
+    #form .container .row .left h2 {
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+    #form .container .row .left p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    #form form {
+        padding: 20px 15px;
+        border-radius: 10px;
+    }
+    #form form h3 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    #form form button {
+        padding: 15px 50px;
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    /* ====================================-> bottom part <-================================= */
+    #bottom {
+        padding-top: 50px;
+    }
+
+    #bottom .container .row .left p {
+        font-size: 14px;
+        line-height: 21px;
+        margin-top: 15px;
+    }
+
+    #bottom .container .row .text {
+        margin-top: 30px;
+    }
+    #bottom .container .row .text .main h4 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    #bottom .container .row .text .main ul li a {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    
+}
+
+
+
