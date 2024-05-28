@@ -154,7 +154,7 @@
     #agence .container .main {
         row-gap: 30px;
         flex-direction: row;
-        column-gap: 15px;
+        justify-content: space-between;
     }
     #agence .container .main .top h3 {
         font-size: 22px;
